@@ -1,5 +1,6 @@
+###Review Table
 \#|Title|KeyWords|Tag|Difficulty|Beat|Mark|
--|-|-|-|-|-|-
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
 1|[Two Sum](https://leetcode.com/problems/two-sum/) |数组中两数相加等于目标值|Array HashTable|Easy|47%|M
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|反转整数|Math|Easy|18%|M
 9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|回文数|Math|Easy|-|-
