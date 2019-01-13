@@ -82,7 +82,6 @@
 925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|长键按入|Two Pointers String|Easy|18%|M
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
-
 Sort|排序
 Array|数组
 Greedy|贪心算法
@@ -92,3 +91,10 @@ Hash Table|哈希表映射
 Binary Search|二分查找
 Bit-Manipulation|位运算
 Dynamic Programming|动态规划
+
+### 基本算法思想
+1. 穷举算法
+2. 动态规划（动态递推）：递归 + 记忆化 => 递推 / 最优子结构
+3. 回溯算法
+4. 分治算法
+5. 贪心算法
