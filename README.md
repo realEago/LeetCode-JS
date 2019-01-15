@@ -10,7 +10,10 @@
 12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|整数转罗马数字|Math String|Medium|18%|M
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|罗马数字转整数|Math String|Easy|73%|-
 14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|最长共同前缀|String|Easy|52%|-
+19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|删除倒数第n个结点|LinkedList|Easy|31%|-
+20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|有效的括号|Stack String|Easy|26%|⭐️
 21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|合并两种链表|LinkedList|Easy|8%|M
+24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|两两交换链表中的节点|LinkedList|Medium|23%|⭐️
 26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|删除排序数组中的重复项|Array TwoPointers|Easy|1%|M
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|删除重复项|Array TwoPointers|Easy|100%|
 28|[Implement strStr()](https://leetcode.com/problems/remove-element/)|实现 strStr() 函数|String TwoPointers|Easy|17%|M
@@ -21,6 +24,8 @@
 66|[Plus One](https://leetcode.com/problems/plus-one/)|数组末尾加一|Array Math|Medium|51%|
 67|[Add Binary](https://leetcode.com/problems/add-binary/)|二进制数相加|Math String|Easy|8%|M
 69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|开方|Math Binary Search|Easy|80%|
+70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|爬楼梯|Dynamic Programming|Easy|23%|⭐️
+83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|?|-
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
@@ -32,12 +37,13 @@
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
-204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M
+204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|反转链表|LinkedList|Easy|?|⭐️
 217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|存在重复元素|Array HashTable|Easy|17%|M
 219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|存在重复元素 II|Array HashTable|Easy|18%|M
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
+237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|删除链表节点|LinkedList|Easy|34%|⭐️巧妙
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|有效的同字母异序词|HashTable Sort|Easy|64%|-
 258|[Add Digits](https://leetcode.com/problems/add-digits/)|各位相加|Math|Easy|100%|-
 260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|只出现一次的数字 III|Bit-Manipulation|Medium|86%|-
@@ -62,20 +68,23 @@
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
-509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|计算斐波那切数列|Array|Easy|?|⭐️
+509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|图片平滑器|Array|Easy|22%|M
+682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
 728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|自除数|Math|Easy|21%|M
 747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|至少是其他数字两倍的最大数|Array|Easy|30%| M
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|宝石与石头|HashTable|Easy|15%|M
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|唯一摩尔斯密码词|String|Easy|20%|M
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|翻转图像|Array|Easy|100%|-
+844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|退格比较|Stack TwoPointers|Easy|15%|M
 852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|山脉数组的峰顶索引|Array|Easy|75%|-
 867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|反转矩阵|Array|Easy|?|
+876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|链表中点|LinkedList|Easy|31%|⭐️
 896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|单调数列|Array|Easy|100%|
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|按奇偶排序数组|Array|Easy|28%|M
 922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|按奇偶排序数组 II|Array Sort|Easy|87%|-
