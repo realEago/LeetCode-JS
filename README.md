@@ -33,9 +33,11 @@
 125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|验证回文串|TwoPointer String|Easy|13%|M
 136|[Single Number](https://leetcode.com/problems/single-number/)|只出现一次的数字|HashTable Bit-Manipulation|Easy|97%|-
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
+141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
+191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
 204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|反转链表|LinkedList|Easy|?|⭐️
@@ -62,10 +64,12 @@
 389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|找不同|HashTable Bitmanipulation|Easy|76%|-
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
+441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
 461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|汉明距离|Bit-Manipulation|Easy|100%|⭐️
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|最大连续1的个数|Array|Easy|85%|-
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
+500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|键盘行|HashTable|Easy|3%|M
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
@@ -73,6 +77,7 @@
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
+645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|图片平滑器|Array|Easy|22%|M
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
@@ -91,15 +96,9 @@
 925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|长键按入|Two Pointers String|Easy|18%|M
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
-Sort|排序
-Array|数组
-Greedy|贪心算法
-LinkedList|链表
-Two Pointers|双指针
-Hash Table|哈希表映射
-Binary Search|二分查找
-Bit-Manipulation|位运算
-Dynamic Programming|动态规划
+
+
+
 
 ### 基本算法思想
 1. 穷举算法
@@ -107,3 +106,19 @@ Dynamic Programming|动态规划
 3. 回溯算法
 4. 分治算法
 5. 贪心算法
+
+数据结构|-|-         |算法部分|-|
+:-:|:-:|:-:|:-:|:-:|
+栈|Stack|-          |二分搜索|Binary Search|
+队列|Queue|-        |分治|Divide Conquer|
+链表|Linked List|-  |宽度优先搜索|Breadth First Search|
+数组|Array|-        |深度优先搜索|Depth First Search|
+哈希表|Hash Table|-  |回溯法|Backtracking|
+二叉树|Binary tree|-|双指针|Two Pointers|
+堆|Heap|-           |动态规划|Dynamic Programming|
+并查集|Union Find|-  |扫描线|Scan line|
+字典树|Trie|-         |排序（快排）|Sort|
+-|-|-               |位运算|Bit-Manipulation|
+-|-|-               |贪心算法|Greedy|
+
+
