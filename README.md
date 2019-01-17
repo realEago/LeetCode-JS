@@ -35,6 +35,7 @@
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
+171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Excel表列序号|Math|Easy|52%|-
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
 191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
@@ -52,6 +53,7 @@
 263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|丑数|Bit-Manipulation|Easy|100%|-
 268|[Missing Number](https://leetcode.com/problems/missing-number/)|缺失数字|Bit-Manipulation|Easy|100%|-
 283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|移动零|Array TwoPointers|Easy|74%|-
+287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|发现重复数|Array TwoPointers BinarySearch|Medium|27%|M需优化
 326|[Power of Three](https://leetcode.com/problems/power-of-three/)|3的幂|Array TwoPointers|Math|76%|-
 338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|比特位计数|DynamicProgramming Bit-Manipulation|Medium|?|-
 342|[Power of Four](https://leetcode.com/problems/power-of-four/)|4的幂|Bit-Manipulation|Easy|100%|-
@@ -63,10 +65,13 @@
 387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|字符串中的第一个唯一字符|HashTable String|Easy|78%|-
 389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|找不同|HashTable Bitmanipulation|Easy|76%|-
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
+414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|第三大的数|Array|Easy|64%|-
+
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
 441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
 461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|汉明距离|Bit-Manipulation|Easy|100%|⭐️
+476|[Number Complement](https://leetcode.com/problems/number-complement/)|数字的补数|Bit-Manipulation|Easy|45%|⭐️
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|最大连续1的个数|Array|Easy|85%|-
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
 500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|键盘行|HashTable|Easy|3%|M
@@ -74,15 +79,20 @@
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
+541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|反转字符串 II|Array|Easy|57%|-
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
+557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|反转字符串中的单词 III|String|Easy|40%|-
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|图片平滑器|Array|Easy|22%|M
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
+704|[Binary Search](https://leetcode.com/problems/binary-search/)|二分查找|Binary Search|Easy|40%|⭐️
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
 728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|自除数|Math|Easy|21%|M
+744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|寻找比目标字母大的最小字母|Binary Search|Easy|0%|M
 747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|至少是其他数字两倍的最大数|Array|Easy|30%| M
+766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|托普利茨矩阵|Array|Easy|17%|-
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|宝石与石头|HashTable|Easy|15%|M
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|唯一摩尔斯密码词|String|Easy|20%|M
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|翻转图像|Array|Easy|100%|-
@@ -107,18 +117,18 @@
 4. 分治算法
 5. 贪心算法
 
-数据结构|-|-         |算法部分|-|
-:-:|:-:|:-:|:-:|:-:|
-栈|Stack|-          |二分搜索|Binary Search|
-队列|Queue|-        |分治|Divide Conquer|
-链表|Linked List|-  |宽度优先搜索|Breadth First Search|
-数组|Array|-        |深度优先搜索|Depth First Search|
-哈希表|Hash Table|-  |回溯法|Backtracking|
-二叉树|Binary tree|-|双指针|Two Pointers|
-堆|Heap|-           |动态规划|Dynamic Programming|
-并查集|Union Find|-  |扫描线|Scan line|
-字典树|Trie|-         |排序（快排）|Sort|
--|-|-               |位运算|Bit-Manipulation|
--|-|-               |贪心算法|Greedy|
+数据结构|-|算法部分|-|
+:-:|:-:|:-:|:-:|
+栈|Stack|二分搜索|Binary Search|
+队列|Queue|分治|Divide Conquer|
+链表|Linked List|宽度优先搜索|Breadth First Search|
+数组|Array|深度优先搜索|Depth First Search|
+哈希表|Hash Table|回溯法|Backtracking|
+二叉树|Binary tree|双指针|Two Pointers|
+堆|Heap|动态规划|Dynamic Programming|
+并查集|Union Find|扫描线|Scan line|
+字典树|Trie|排序（快排）|Sort|
+-|-|位运算|Bit-Manipulation|
+-|-|贪心算法|Greedy|
 
 
