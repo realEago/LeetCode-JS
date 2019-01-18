@@ -66,8 +66,8 @@
 389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|找不同|HashTable Bitmanipulation|Easy|76%|-
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
 414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|第三大的数|Array|Easy|64%|-
-
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
+434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|字符串中的单词数|String|Easy|40%|-
 441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
 461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|汉明距离|Bit-Manipulation|Easy|100%|⭐️
@@ -78,6 +78,7 @@
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
+520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|检测大写字母|String|Easy|1%|M
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
 541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|反转字符串 II|Array|Easy|57%|-
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
@@ -85,6 +86,7 @@
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
+657|[SRobot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|机器人能否返回原点|String|Easy|30%|M
 661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|图片平滑器|Array|Easy|22%|M
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
 704|[Binary Search](https://leetcode.com/problems/binary-search/)|二分查找|Binary Search|Easy|40%|⭐️
@@ -104,6 +106,8 @@
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|按奇偶排序数组|Array|Easy|28%|M
 922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|按奇偶排序数组 II|Array Sort|Easy|87%|-
 925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|长键按入|Two Pointers String|Easy|18%|M
+929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|独特的电子邮件地址|String|Easy|9%|M
+942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
 
