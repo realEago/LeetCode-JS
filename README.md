@@ -27,21 +27,26 @@
 70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|爬楼梯|Dynamic Programming|Easy|23%|⭐️
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
-118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|?|-
+118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
+119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|杨辉三角II|Array|Easy|56%|M(需优化时间复杂度为n)
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
 121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|买卖股票的最佳时机|Array Dynamic Programing|Easy|21%|M
 125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|验证回文串|TwoPointer String|Easy|13%|M
 136|[Single Number](https://leetcode.com/problems/single-number/)|只出现一次的数字|HashTable Bit-Manipulation|Easy|97%|-
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
+153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
+
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
 171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Excel表列序号|Math|Easy|52%|-
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
+190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|颠倒二进制位|Bit-Manipulation|Easy|70%|⭐️
 191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
 204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|反转链表|LinkedList|Easy|?|⭐️
+215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|数组中的第K个最大元素|Divide Conquer Heap|Easy|1%|M
 217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|存在重复元素|Array HashTable|Easy|17%|M
 219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|存在重复元素 II|Array HashTable|Easy|18%|M
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
@@ -64,6 +69,7 @@
 383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|赎金信|String|Easy|17%|M
 387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|字符串中的第一个唯一字符|HashTable String|Easy|78%|-
 389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|找不同|HashTable Bitmanipulation|Easy|76%|-
+405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|数字转十六进制|Bit-Manipulation|Easy|0%|M
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
 414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|第三大的数|Array|Easy|64%|-
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
@@ -85,17 +91,21 @@
 557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|反转字符串中的单词 III|String|Easy|40%|-
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
+643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|子数组最大平均数 I|Array|Easy|30%|-
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 657|[SRobot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|机器人能否返回原点|String|Easy|30%|M
 661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|图片平滑器|Array|Easy|22%|M
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
+693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|交替位二进制数|Bit-Manipulation|Easy|100%|-
 704|[Binary Search](https://leetcode.com/problems/binary-search/)|二分查找|Binary Search|Easy|40%|⭐️
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
 728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|自除数|Math|Easy|21%|M
 744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|寻找比目标字母大的最小字母|Binary Search|Easy|0%|M
 747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|至少是其他数字两倍的最大数|Array|Easy|30%| M
+762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|二进制表示中质数个计算置位|Bit-Manipulation|Easy|80%|⭐️
 766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|托普利茨矩阵|Array|Easy|17%|-
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|宝石与石头|HashTable|Easy|15%|M
+796|[Rotate String](https://leetcode.com/problems/rotate-string/)|旋转字符串|String|Easy|100%|-
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|唯一摩尔斯密码词|String|Easy|20%|M
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|翻转图像|Array|Easy|100%|-
 844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|退格比较|Stack TwoPointers|Easy|15%|M
@@ -110,6 +120,7 @@
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
+977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
 
 
 
