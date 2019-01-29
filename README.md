@@ -36,7 +36,6 @@
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
 153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
-
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
 171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Excel表列序号|Math|Easy|52%|-
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
@@ -52,6 +51,7 @@
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
 237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|删除链表节点|LinkedList|Easy|34%|⭐️巧妙
+239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|滑动窗口最大值|Heap|Hard|27%|M
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|有效的同字母异序词|HashTable Sort|Easy|64%|-
 258|[Add Digits](https://leetcode.com/problems/add-digits/)|各位相加|Math|Easy|100%|-
 260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|只出现一次的数字 III|Bit-Manipulation|Medium|86%|-
@@ -112,6 +112,7 @@
 852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|山脉数组的峰顶索引|Array|Easy|75%|-
 867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|反转矩阵|Array|Easy|?|
 876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|链表中点|LinkedList|Easy|31%|⭐️
+883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|三维形体投影面积|Array|Easy|60%|-
 896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|单调数列|Array|Easy|100%|
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|按奇偶排序数组|Array|Easy|28%|M
 922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|按奇偶排序数组 II|Array Sort|Easy|87%|-
@@ -120,6 +121,7 @@
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
+973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
 
 
@@ -135,7 +137,7 @@
 数据结构|-|算法部分|-|
 :-:|:-:|:-:|:-:|
 栈|Stack|二分搜索|Binary Search|
-队列|Queue|分治|Divide Conquer|
+队列|Queue|分治|Divide and Conquer|
 链表|Linked List|宽度优先搜索|Breadth First Search|
 数组|Array|深度优先搜索|Depth First Search|
 哈希表|Hash Table|回溯法|Backtracking|
