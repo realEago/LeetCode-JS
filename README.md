@@ -123,7 +123,7 @@
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
 973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
-
+//写不进去啊
 
 ### 基本算法思想
 1. 穷举算法
