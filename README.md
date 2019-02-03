@@ -25,6 +25,7 @@
 67|[Add Binary](https://leetcode.com/problems/add-binary/)|二进制数相加|Math String|Easy|8%|M
 69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|开方|Math Binary Search|Easy|80%|
 70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|爬楼梯|Dynamic Programming|Easy|23%|⭐️
+71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|简化路径|String Stack|Medium|7%|M
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
@@ -63,6 +64,7 @@
 338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|比特位计数|DynamicProgramming Bit-Manipulation|Medium|?|-
 342|[Power of Four](https://leetcode.com/problems/power-of-four/)|4的幂|Bit-Manipulation|Easy|100%|-
 344|[Reverse String](https://leetcode.com/problems/reverse-string/)|反转字符串|TwoPointers String|Easy|94%|-
+345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|反转字符串中的元音字母|TwoPointers String|Easy|6%|M
 349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|两数组交集|HashTable Sort TwoPoints BinarySearch|Easy|75%|-
 350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|两个数组的交集 II|HashTable Sort TwoPoints BinarySearch|Easy|16%|M
 371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|两数之和|Bit-Manipulation|Easy|？|👎
@@ -123,7 +125,7 @@
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
 973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
-//写不进去啊
+
 
 ### 基本算法思想
 1. 穷举算法
