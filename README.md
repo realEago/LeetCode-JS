@@ -26,6 +26,7 @@
 69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|开方|Math Binary Search|Easy|80%|
 70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|爬楼梯|Dynamic Programming|Easy|23%|⭐️
 71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|简化路径|String Stack|Medium|7%|M
+74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|搜索二维矩阵|Array|Medium|37%|-
 75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|颜色分类（排序算法）|Sort|Medium|11%|M
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
@@ -39,6 +40,7 @@
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
 150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|逆波兰表达式求值|Stack|Medium|0%|M
 153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
+155|[Min Stack](https://leetcode.com/problems/min-stack/)|最小栈|Stack|easy|10%|-
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
 171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Excel表列序号|Math|Easy|52%|-
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
@@ -52,10 +54,13 @@
 217|[Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|存在重复元素|Array HashTable|Easy|17%|M
 219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|存在重复元素 II|Array HashTable|Easy|18%|M
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
+225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|用队列实现栈|Stack|Easy|32%|-
 229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/submissions/)|求众数 II|Array|Medium|83%|-
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
+232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|用栈实现队列|Stack|Easy|30%|M
 237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|删除链表节点|LinkedList|Easy|34%|⭐️巧妙
 239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|滑动窗口最大值|Heap|Hard|27%|M
+240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|搜索二维矩阵 II|Binary Search|Medium|5%|M
 242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|有效的同字母异序词|HashTable Sort|Easy|64%|-
 258|[Add Digits](https://leetcode.com/problems/add-digits/)|各位相加|Math|Easy|100%|-
 260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|只出现一次的数字 III|Bit-Manipulation|Medium|86%|-
@@ -111,13 +116,16 @@
 762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|二进制表示中质数个计算置位|Bit-Manipulation|Easy|80%|⭐️
 766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|托普利茨矩阵|Array|Easy|17%|-
 771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|宝石与石头|HashTable|Easy|15%|M
+791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|自定义字符串排序|String|Medium|31%|-
 796|[Rotate String](https://leetcode.com/problems/rotate-string/)|旋转字符串|String|Easy|100%|-
 804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|唯一摩尔斯密码词|String|Easy|20%|M
 821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|字符的最短距离|String|Easy|4%|-
+824|[Goat Latin](https://leetcode.com/problems/goat-latin/)|山羊拉丁文|String|Easy|18%|-
 832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|翻转图像|Array|Easy|100%|-
 844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|退格比较|Stack TwoPointers|Easy|15%|M
 852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|山脉数组的峰顶索引|Array|Easy|75%|-
 867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|反转矩阵|Array|Easy|?|
+868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|二进制间距|Math|Easy|8%|-
 876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|链表中点|LinkedList|Easy|31%|⭐️
 883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|三维形体投影面积|Array|Easy|60%|-
 896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|单调数列|Array|Easy|100%|
@@ -130,6 +138,7 @@
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
 973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
+976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|三角形最大周长|Array Math|Easy|97%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
 
 
