@@ -48,6 +48,7 @@
 190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|颠倒二进制位|Bit-Manipulation|Easy|70%|⭐️
 191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
+203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|移除链表元素|LinkedList|Easy|34%|-
 204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
 206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|反转链表|LinkedList|Easy|?|⭐️
 215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|数组中的第K个最大元素|Divide Conquer Heap|Easy|1%|M
@@ -58,6 +59,7 @@
 229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/submissions/)|求众数 II|Array|Medium|83%|-
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
 232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|用栈实现队列|Stack|Easy|30%|M
+234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|回文链表|LinkedList|Easy|45%|-
 237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|删除链表节点|LinkedList|Easy|34%|⭐️巧妙
 239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|滑动窗口最大值|Heap|Hard|27%|M
 240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|搜索二维矩阵 II|Binary Search|Medium|5%|M
@@ -101,6 +103,7 @@
 557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|反转字符串中的单词 III|String|Easy|40%|-
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
+581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|最短无序连续子数组|Array|Easy|21%|-
 643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|子数组最大平均数 I|Array|Easy|30%|-
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 657|[SRobot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|机器人能否返回原点|String|Easy|30%|M
@@ -134,6 +137,7 @@
 922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|按奇偶排序数组 II|Array Sort|Easy|87%|-
 925|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|长键按入|Two Pointers String|Easy|18%|M
 929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|独特的电子邮件地址|String|Easy|9%|M
+933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|最近的请求次数|Queue|Easy|49%|-
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
