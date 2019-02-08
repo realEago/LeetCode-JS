@@ -41,6 +41,7 @@
 150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|逆波兰表达式求值|Stack|Medium|0%|M
 153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
 155|[Min Stack](https://leetcode.com/problems/min-stack/)|最小栈|Stack|easy|10%|-
+164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|最大间距|Sort|Hard|30%|-
 167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|已排序数组找两数求目标值（首尾双指针)|Array TwoPointers BinarySearch|Easy|100%|M
 171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|Excel表列序号|Math|Easy|52%|-
 172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘后的零|Math|Easy|0%|M
@@ -89,6 +90,7 @@
 441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
 461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|汉明距离|Bit-Manipulation|Easy|100%|⭐️
+475|[Heaters](https://leetcode.com/problems/heaters/)|供暖器|Binary Search|Easy|5%|M
 476|[Number Complement](https://leetcode.com/problems/number-complement/)|数字的补数|Bit-Manipulation|Easy|45%|⭐️
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|最大连续1的个数|Array|Easy|85%|-
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
@@ -104,6 +106,7 @@
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|最短无序连续子数组|Array|Easy|21%|-
+605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|种花问题|Array|Easy|22%|-
 643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|子数组最大平均数 I|Array|Easy|30%|-
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 657|[SRobot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|机器人能否返回原点|String|Easy|30%|M
@@ -131,6 +134,7 @@
 868|[Binary Gap](https://leetcode.com/problems/binary-gap/)|二进制间距|Math|Easy|8%|-
 876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|链表中点|LinkedList|Easy|31%|⭐️
 883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|三维形体投影面积|Array|Easy|60%|-
+888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|公平的糖果交换|Array|Easy|12%|-
 896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|单调数列|Array|Easy|100%|
 905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|按奇偶排序数组|Array|Easy|28%|M
 908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|最小差值 I|Math|Easy|100%|-
@@ -145,7 +149,7 @@
 976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|三角形最大周长|Array Math|Easy|97%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
 
-
+//
 ### 基本算法思想
 1. 穷举算法
 2. 动态规划（动态递推）：递归 + 记忆化 => 递推 / 最优子结构
