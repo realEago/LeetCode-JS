@@ -30,6 +30,8 @@
 75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|颜色分类（排序算法）|Sort|Medium|11%|M
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
+98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|验证二叉搜索树|tree|Easy|45%|⭐️
+100|[Same Tree](https://leetcode.com/problems/same-tree/)|相同的树|tree|Easy|40%|⭐️
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
 119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|杨辉三角II|Array|Easy|56%|M(需优化时间复杂度为n)
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
@@ -57,6 +59,7 @@
 219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|存在重复元素 II|Array HashTable|Easy|18%|M
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
 225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|用队列实现栈|Stack|Easy|32%|-
+226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|翻转二叉树|Tree|Easy|30%|⭐️
 229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/submissions/)|求众数 II|Array|Medium|83%|-
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
 232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|用栈实现队列|Stack|Easy|30%|M
@@ -99,6 +102,7 @@
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
 520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|检测大写字母|String|Easy|1%|M
+538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|把二叉搜索树转换为累加树|Tree|Easy|45%|⭐️
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
 541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|反转字符串 II|Array|Easy|57%|-
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
@@ -115,6 +119,7 @@
 680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|验证回文字符串 Ⅱ|String|Easy|55%|-
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
 693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|交替位二进制数|Bit-Manipulation|Easy|100%|-
+700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|二叉搜索树中的搜索|Tree|Easy|48%|⭐️
 704|[Binary Search](https://leetcode.com/problems/binary-search/)|二分查找|Binary Search|Easy|40%|⭐️
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
 728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|自除数|Math|Easy|21%|M
@@ -146,6 +151,7 @@
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
+965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|单值二叉树|Tree|Easy|100%|⭐️
 973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
 976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|三角形最大周长|Array Math|Easy|97%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
@@ -171,5 +177,18 @@
 字典树|Trie|排序（快排）|Sort|
 -|-|位运算|Bit-Manipulation|
 -|-|贪心算法|Greedy|
+
+### 排序算法
+1. 简单排序（冒泡排序、插入排序）
+2. 希尔排序
+3. 堆排序
+4. 归并排序
+5. 快速排序
+6. 表排序
+7. 基数排序
+
+### 图
+1. 广度优先搜索 （Breadth-First-Search,BFS)
+2. 深度优先搜索  (Depth-First-Search,DFS)
 
                                                     
