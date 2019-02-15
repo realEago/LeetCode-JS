@@ -40,6 +40,7 @@
 136|[Single Number](https://leetcode.com/problems/single-number/)|只出现一次的数字|HashTable Bit-Manipulation|Easy|97%|-
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
+144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|二叉树的前序遍历|Tree|Easy|26%|⭐️
 150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|逆波兰表达式求值|Stack|Medium|0%|M
 153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
 155|[Min Stack](https://leetcode.com/problems/min-stack/)|最小栈|Stack|easy|10%|-
@@ -110,6 +111,8 @@
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|最短无序连续子数组|Array|Easy|21%|-
+589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|N叉树的前序遍历|Tree|Easy|76%|-
+590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|N叉树的后序遍历|Tree|Easy|27%|-
 605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|种花问题|Array|Easy|22%|-
 617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|合并二叉树|Tree|Easy|39%|⭐️
 643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|子数组最大平均数 I|Array|Easy|30%|-
