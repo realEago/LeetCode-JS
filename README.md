@@ -12,7 +12,8 @@
 14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|最长共同前缀|String|Easy|52%|-
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|删除倒数第n个结点|LinkedList|Easy|31%|-
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|有效的括号|Stack String|Easy|26%|⭐️
-21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|合并两种链表|LinkedList|Easy|8%|M
+21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|合并两种链表|LinkedList|Easy|45%|-
+23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|合并K个排序链表|LinkedList|hard|58%|⭐️
 24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|两两交换链表中的节点|LinkedList|Medium|23%|⭐️
 26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|删除排序数组中的重复项|Array TwoPointers|Easy|1%|M
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|删除重复项|Array TwoPointers|Easy|100%|
@@ -32,6 +33,8 @@
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
 98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|验证二叉搜索树|tree|Easy|45%|⭐️
 100|[Same Tree](https://leetcode.com/problems/same-tree/)|相同的树|tree|Easy|40%|⭐️
+102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树的层次遍历|tree|Medium|55%|⭐️
+107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|二叉树的层次遍历 II|tree|Easy|54%|-
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
 119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|杨辉三角II|Array|Easy|56%|M(需优化时间复杂度为n)
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
@@ -99,6 +102,7 @@
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|最大连续1的个数|Array|Easy|85%|-
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
 500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|键盘行|HashTable|Easy|3%|M
+501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|二叉搜索树中的众数|Tree|Easy|40%|-
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
@@ -191,7 +195,7 @@
 7. 基数排序
 
 ### 图
-1. 广度优先搜索 （Breadth-First-Search,BFS)
+1. 广度优先搜索 （Breadth-First-Search,BFS) 层层搜索
 2. 深度优先搜索  (Depth-First-Search,DFS)
 
                                                     
