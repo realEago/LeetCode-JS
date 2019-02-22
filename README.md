@@ -93,6 +93,7 @@
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
 414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|第三大的数|Array|Easy|64%|-
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
+429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|N叉树的层序遍历|Tree|Easy|73%|⭐️
 434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|字符串中的单词数|String|Easy|40%|-
 441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
@@ -112,6 +113,7 @@
 541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|反转字符串 II|Array|Easy|57%|-
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
 557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|反转字符串中的单词 III|String|Easy|40%|-
+559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|N叉树的最大深度|Tree|Easy|40%|⭐️
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|最短无序连续子数组|Array|Easy|21%|-
