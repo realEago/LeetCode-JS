@@ -33,8 +33,10 @@
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
 98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|验证二叉搜索树|tree|Easy|45%|⭐️
 100|[Same Tree](https://leetcode.com/problems/same-tree/)|相同的树|tree|Easy|40%|⭐️
+101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|对称二叉树|tree|Easy|40%|⭐️
 102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树的层次遍历|tree|Medium|55%|⭐️
 107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|二叉树的层次遍历 II|tree|Easy|54%|-
+111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|二叉树的最小深度|tree|Easy|55%|⭐️
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
 119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|杨辉三角II|Array|Easy|56%|M(需优化时间复杂度为n)
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
@@ -54,6 +56,7 @@
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
 190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|颠倒二进制位|Bit-Manipulation|Easy|70%|⭐️
 191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
+199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|二叉树的右视图|Tree|Easy|41%|⭐️
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
 203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|移除链表元素|LinkedList|Easy|34%|-
 204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
@@ -107,6 +110,8 @@
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
+513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|找树左下角的值|Tree|Easy|34%|-
+515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|在每个树行中找最大值|Tree|Easy|47%|-
 520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|检测大写字母|String|Easy|1%|M
 538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|把二叉搜索树转换为累加树|Tree|Easy|45%|⭐️
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
