@@ -18,14 +18,11 @@ function swap(array, a, b) {
 // JS实现：
 
 function sort(array) {
-  var i
-  var j
-  for (i = 1; i < array.length; i++) {
-    for (j = 0; j < array.length - i; j++) {
-      if (array[j] <= array[j + 1]) {
-      } else
+  for (var i = 1; i < array.length; i++) {
+    for (var j = 0; j < array.length - i; j++) {
+      if (array[j] > array[j + 1]) {
         swap(array, j, j + 1)
-      console.log("swap" + array[j] + ',' + array[j + 1])
+      }
     }
   }
   return array;
