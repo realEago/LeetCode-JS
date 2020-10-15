@@ -50,29 +50,10 @@ function sort(array) {
 }
 
 // 3.插入排序
-// 插入排序的理解比较简单，可以简略的理解为打牌的时候起牌的方法：我手里已经有一副牌，每抓到一张新牌（读取新值）就和我手里的牌进行比较，大的话就放右边，小的话就放左边。首先我将要插入的数放在数组第一个位置，然后从最后一个位置开始从右向左查找。每当我从右开始读取的数比需要插入的数大，我就将其右移一位。这样既可花费n-1步找到需要排序的位置。
+// 
 // JS代码实现：
 
-function sort(array) {
-  var i
-  var j
-  for (i = 1; i < array.length; i++) {
-    console.log('current:' + i + ':' + array[i])
-    var position = i
-    for (j = i - 1; j >= 0; j--) {
-      if (array[j] > array[i]) {
-        position = j
-        console.log('position:' + j)
-      } else {
-        var value = array[position]
-        array.splice(position, 1)
-        array.splice(j, 0, value)
-        console.log('insert at :' + j)
-      }
-    }
-  }
-  return array;
-}
+
 
 // 4.快速排序
 // 快速排序又称为自私算法，它优先让每个元素找到自己所在的位置，每次排序都实现“比我大的都在我右边，比我小的都在我左边”而不去计较它们的位置关系。具体做法为：先找一个基准点（一般用第一个元素或者中间元素）然后数组被分为两部分，如果选定值比它小，放左边；比它大，放右边。然后进行反复比较，就可以实现效果。
