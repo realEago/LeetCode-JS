@@ -93,22 +93,10 @@ function selectSort(ary) {
 /**
  * 3、插入排序 O(n^2) InsertionSort
  * 插入排序的理解比较简单，可以理解为打牌的时候起牌的方法：我手里已经有一副牌，每抓到一张新牌（读取新值）就和我手里的牌进行比较，大的话就放右边，小的话就放左边。
- * 首先我将要插入的数放在数组第一个位置，然后从最后一个位置开始从右向左查找。
- * 每当我从右开始读取的数比需要插入的数大，我就将其右移一位。这样既可花费n-1步找到需要排序的位置。
+ * 1、遍历每一个数，把这个数与前边排好的队列一一比较
+ * 2、比这个数大的往后移一位
+ * 3、比这个数小的话就把当前的数放在这个小数的后边
  */
-
-function Insertion(array) {
-  for (let i = 1; i < array.length; i++) {
-    let preIndex = i - 1;
-    let current = array[i];
-    while (preIndex >= 0 && current < array[preIndex]) {
-      array[preIndex + 1] = array[preIndex];
-      preIndex--;
-    }
-    array[preIndex + 1] = current;
-  }
-  return array;
-}
 
 function Insertion(array) {
   for (let i = 1; i < array.length; i++) {
@@ -121,6 +109,13 @@ function Insertion(array) {
     array[preIndex + 1] = current;
   }
 }
+
+
+/**
+ * 4、 希尔排序
+ * 
+ */
+
 
 /**
  * 4、归并排序
