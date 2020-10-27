@@ -1,3 +1,6 @@
+// 《十大经典排序算法》 https://sort.hust.cc/ 
+//  https://github.com/hustcc/JS-Sorting-Algorithm
+
 // 排序算法的稳定性：
 // 指排序前后，相同元素的相对位置是否发生变化
 // 如果【发生变化】，则称此排序算法为【不稳定】的排序算法
