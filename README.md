@@ -31,12 +31,6 @@
 75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|颜色分类（排序算法）|Sort|Medium|11%|M
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|移除排序链表的重复值|LinkedList|Easy|5%|M
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|排序算法|Array TwoPointers|Easy|35%|M
-98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|验证二叉搜索树|tree|Easy|45%|⭐️
-100|[Same Tree](https://leetcode.com/problems/same-tree/)|相同的树|tree|Easy|40%|⭐️
-101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|对称二叉树|tree|Easy|40%|⭐️
-102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树的层次遍历|tree|Medium|55%|⭐️
-107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|二叉树的层次遍历 II|tree|Easy|54%|-
-111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|二叉树的最小深度|tree|Easy|55%|⭐️
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|杨辉三角|Array|Easy|100%|-
 119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|杨辉三角II|Array|Easy|56%|M(需优化时间复杂度为n)
 120|[Triangle](https://leetcode.com/problems/triangle/submissions/)|三角数组中最小和|Array Dynamic|Medium|23%|M
@@ -45,7 +39,6 @@
 136|[Single Number](https://leetcode.com/problems/single-number/)|只出现一次的数字|HashTable Bit-Manipulation|Easy|97%|-
 137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|只出现一次的数字2|Bit-Manipulation|Medium|28%|M
 141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|环形链表|LinkedList TwoPointers|Easy|42%|⭐️
-144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|二叉树的前序遍历|Tree|Easy|26%|⭐️
 150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|逆波兰表达式求值|Stack|Medium|0%|M
 153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|寻找最小值|Array|Medium|45%|-
 155|[Min Stack](https://leetcode.com/problems/min-stack/)|最小栈|Stack|easy|10%|-
@@ -56,7 +49,6 @@
 189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|旋转数组|Array|Easy|2%|M
 190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|颠倒二进制位|Bit-Manipulation|Easy|70%|⭐️
 191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|位1的个数|Bit-Manipulation|Easy|31%|⭐️
-199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|二叉树的右视图|Tree|Easy|41%|⭐️
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|快乐数|HashTable Math|Easy|99%|-
 203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|移除链表元素|LinkedList|Easy|34%|-
 204|[Count Primes](https://leetcode.com/problems/count-primes/)|计数质数|HashTable Math|Easy|24%|M⭐️
@@ -66,7 +58,6 @@
 219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|存在重复元素 II|Array HashTable|Easy|18%|M
 220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|存在重复元素 III|Array HashTable|Medium|31%|M
 225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|用队列实现栈|Stack|Easy|32%|-
-226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|翻转二叉树|Tree|Easy|30%|⭐️
 229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/submissions/)|求众数 II|Array|Medium|83%|-
 231|[Power of Two](https://leetcode.com/problems/power-of-two/)|2的幂|Math Bit-Manipulation|Easy|99%|-
 232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|用栈实现队列|Stack|Easy|30%|M
@@ -96,7 +87,6 @@
 412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|Fizz Buzz|String|Easy|93%|-
 414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|第三大的数|Array|Easy|64%|-
 415|[Add Strings](https://leetcode.com/problems/add-strings/)|字符串数字相加|Math|Easy|?|-
-429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|N叉树的层序遍历|Tree|Easy|73%|⭐️
 434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|字符串中的单词数|String|Easy|40%|-
 441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|排列硬币|Math BinarySearch|Easy|0%|⭐️M
 448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|找到所有数组中消失的数字|Bit-Manipulation|Array|42%|M
@@ -106,26 +96,18 @@
 485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|最大连续1的个数|Array|Easy|85%|-
 496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|下一个最大的数|Stack|Easy|16%|M
 500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|键盘行|HashTable|Easy|3%|M
-501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|二叉搜索树中的众数|Tree|Easy|40%|-
 504|[Base 7](https://leetcode.com/problems/base-7/)|七进制数|Math|Easy|86%|-
 507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|完美数字|Math|Easy|30%|-
 509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|斐波那切数列|Array|Easy|56%|⭐️
-513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|找树左下角的值|Tree|Easy|34%|-
-515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|在每个树行中找最大值|Tree|Easy|47%|-
 520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|检测大写字母|String|Easy|1%|M
-538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|把二叉搜索树转换为累加树|Tree|Easy|45%|⭐️
 540|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|有序数组中的单一元素|Array|Medium|44%|M
 541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|反转字符串 II|Array|Easy|57%|-
 551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|学生出勤记录 I|String|Easy|50%|M
 557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|反转字符串中的单词 III|String|Easy|40%|-
-559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|N叉树的最大深度|Tree|Easy|40%|⭐️
 561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|数组拆分|Array|Easy|22%|M
 575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|分糖果|Array|Easy|20%|M
 581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|最短无序连续子数组|Array|Easy|21%|-
-589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|N叉树的前序遍历|Tree|Easy|76%|-
-590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|N叉树的后序遍历|Tree|Easy|27%|-
 605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|种花问题|Array|Easy|22%|-
-617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|合并二叉树|Tree|Easy|39%|⭐️
 643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|子数组最大平均数 I|Array|Easy|30%|-
 645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|错误集合|HashTable Math|Easy|58%|-
 657|[SRobot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|机器人能否返回原点|String|Easy|30%|M
@@ -133,7 +115,6 @@
 680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|验证回文字符串 Ⅱ|String|Easy|55%|-
 682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|棒球计分|Stack|Easy|34%|-
 693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|交替位二进制数|Bit-Manipulation|Easy|100%|-
-700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|二叉搜索树中的搜索|Tree|Easy|48%|⭐️
 704|[Binary Search](https://leetcode.com/problems/binary-search/)|二分查找|Binary Search|Easy|40%|⭐️
 709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|转换成小写字母|String|Easy|100%|-
 728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|自除数|Math|Easy|21%|M
@@ -165,7 +146,6 @@
 942|[DI String Match](https://leetcode.com/problems/di-string-match/)|增减字符串匹配|Math|Easy|40%|-
 944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|垃圾题目|Greedy|Easy|36%|👎
 961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|重复N次的元素|HashTable|Easy|100%|-
-965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|单值二叉树|Tree|Easy|100%|⭐️
 973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|最接近原点的K个点|Math Divide Conquer Sort|Easy|0%|-
 976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|三角形最大周长|Array Math|Easy|97%|-
 977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|排序数组的平方|Array Two Pointers Sort|Easy|1%|M
