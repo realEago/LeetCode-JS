@@ -1,0 +1,38 @@
+<h3>把根节点在rootPos位置的顺序储存的二叉树转换为一个链式二叉树（二叉链表）</h3>
+<h3>ary2tree()</h3>
+<script>
+// 把根节点在rootPos位置的顺序储存的二叉树
+// 转换为一个链式二叉树（二叉链表）
+
+function ary2tree(ary, rootPos = 0) {
+  if (ary.length == 0) {
+    return null;
+  }
+  if (rootPos > ary.length - 1) {
+    return null;
+  }
+  if (ary[rooPos] == null) {
+    return null;
+  }
+  let node = {
+    val: ary[rootPos],
+    left: ary2tree(ary, rootPos * 2 + 1),
+    right: ary2tree(ary, rootPos * 2 + 2)
+  }
+  // let leftRootPos = rootPos * 2 + 1;
+  // let RightRootPos = rootPos * 2 + 2;
+  // node.left = ary2tree(ary, leftRootPos);
+  // node.right = ary2tree(ary, RightRootPos);
+  return node;
+}
+
+// 将二叉树 root 放入一个数组
+// 根节点放在 rootPos 的位置
+var ary = [];
+function tree2ary(root, ary, rootPos) {
+  ary[rootPos] = root.val;
+  tree2ary(root.left, ary, rootPos * 2 + 1);
+  tree2ary(root.right, ary, rootPos * 2 + 2);
+  return ary;
+}
+</script>
