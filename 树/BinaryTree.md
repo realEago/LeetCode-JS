@@ -8,7 +8,7 @@
 102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树的层次遍历|Tree|Medium|55%|⭐️
 107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|二叉树的层次遍历 II|Tree|Easy|54%|-
 111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|二叉树的最小深度|Tree|Easy|55%|⭐️
-144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|二叉树的前序遍历|Tree|Easy|26%|⭐️
+144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|Tree|Easy|62%|⭐️
 199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|二叉树的右视图|Tree|Easy|41%|⭐️
 226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|翻转二叉树|Tree|Easy|30%|⭐️
 429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|N叉树的层序遍历|Tree|Easy|73%|⭐️
