@@ -37,3 +37,21 @@ var tree2ary = function(tree) {  //把树转成数组，非递归写法
 
 //Runtime: 68 ms, faster than 40.57% of JavaScript online submissions for Same Tree.
 //Memory Usage: 33.8 MB, less than 100.00% of JavaScript online submissions for Same Tree.
+
+
+
+// 遍历写法
+var isSameTree = function(p, q) {
+  function sameTree(a, b) {
+      if (a === null && b !== null){
+          return false;
+      } else if (a !== null && b=== null) {
+          return false;
+      } else if (a === null && b === null) {
+          return true;
+      } else {
+          return a.val === b.val && sameTree(a.left, b.left) && sameTree(a.right, b.right);
+      }
+  }
+ return sameTree(p,q);
+};
