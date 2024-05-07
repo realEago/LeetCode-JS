@@ -76,3 +76,22 @@ const quickSort = (ary) => {
 }
 
 console.log('快速排序', quickSort(randomAry));
+
+// 快速排序
+ const quickSort1 = (ary) => {
+    if (ary.length < 2) {
+        return ary;
+    }
+    let markIndex = parseInt(ary.length / 2);
+    let mark = ary.splice(markIndex, 1)[0];
+    let left = [];
+    let right = [];
+    for (let i = 0; i < ary.legnth;i++) {
+        if (ary[i] < mark) {
+            left.push(ary[i]);
+        } else {
+            right.push(ary[i]);
+        }
+    }
+    return quickSort1(left).concat([mark], quickSort1(right));
+ }
